@@ -1,6 +1,6 @@
 import { Instagram } from "lucide-react";
 
-export default function Social() {
+export default function Social2() {
   return (
     <section className="relative min-h-screen mt-20">
       <div className="absolute inset-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-0">

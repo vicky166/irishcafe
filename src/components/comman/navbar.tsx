@@ -1,13 +1,12 @@
-'use client'
-
-import { useState } from 'react';
-import Link from 'next/link';
-import { Bebas_Neue } from 'next/font/google'
+"use client";
+import { useState } from "react";
+import Link from "next/link";
+import { Bebas_Neue } from "next/font/google";
 
 const bebasNeue = Bebas_Neue({
-  weight: '400',
-  subsets: ['latin'],
-})
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +16,6 @@ export default function Navbar() {
   };
 
   return (
-    
     <header className="w-full bg-transparent absolute top-0 left-0 z-50">
       <div className="container mx-auto flex h-16 items-center px-4">
         <Link href="/" className="flex items-center gap-2">
@@ -33,8 +31,16 @@ export default function Navbar() {
             {["Home", "About", "Drinks", "Food", "Store", "Contact"].map((item) => (
               <li key={item}>
                 <Link
-                  href="#"
-                  className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-white transition "
+                  href={
+                    item === "Drinks"
+                      ? "/drinks"
+                      : item === "About"
+                      ? "/about"
+                      : item === "Store"
+                      ? "/store"
+                      : "#"
+                  }
+                  className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-white transition"
                 >
                   {item}
                 </Link>
@@ -44,11 +50,11 @@ export default function Navbar() {
         </nav>
 
         <div className="ml-auto mr-4 sm:mr-8 lg:mr-32 hidden md:block">
-        <button 
-      className="w-full sm:w-auto bg-[#18C67E] hover:bg-emerald-600 text-white font-medium px-6 py-2 text-md rounded-md transition-colors duration-200 uppercase tracking-wide"
-    >
-      Order Online
-    </button>
+          <button
+            className="w-full sm:w-auto bg-[#18C67E] hover:bg-emerald-600 text-white font-medium px-6 py-2 text-md rounded-md transition-colors duration-200 uppercase tracking-wide"
+          >
+            Order Online
+          </button>
         </div>
 
         <div className="ml-auto md:hidden">
@@ -78,11 +84,19 @@ export default function Navbar() {
       {isMenuOpen && (
         <nav className="absolute top-16 left-0 w-full bg-black/80 backdrop-blur-md md:hidden">
           <ul className="flex flex-col space-y-2 px-4 py-4">
-            {["Home", "About ", "Drinks", "Food", "Store", "Contact"].map((item) => (
+            {["Home", "About", "Drinks", "Food", "Store", "Contact"].map((item) => (
               <li key={item}>
                 <Link
-                  href="#"
-                  className="block rounded-md px-4 py-2 text-sm font-medium text-white  transition"
+                  href={
+                    item === "Drinks"
+                      ? "/drinks"
+                      : item === "About"
+                      ? "/about"
+                      : item === "Store"
+                      ? "/store"
+                      : "#"
+                  }
+                  className="block rounded-md px-4 py-2 text-sm font-medium text-white transition"
                 >
                   {item}
                 </Link>
@@ -91,7 +105,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="#"
-                className="block text-center rounded-md bg-emerald-500 px-4 py-2 text-sm font-medium text-white  transition"
+                className="block text-center rounded-md bg-emerald-500 px-4 py-2 text-sm font-medium text-white transition"
               >
                 ORDER ONLINE
               </Link>
