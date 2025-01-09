@@ -36,6 +36,8 @@ export default function Navbar() {
                       ? "/"  // Home links to the homepage
                       : item === "Drinks"
                       ? "/drinks"
+                      : item === "Food"
+                      ? "/food"  // Food links to the food page
                       : item === "About"
                       ? "/about"
                       : item === "Store"
@@ -93,9 +95,11 @@ export default function Navbar() {
                 <Link
                   href={
                     item === "Home"
-                      ? "/"  // Home links to the homepage
+                      ? "/"  
                       : item === "Drinks"
                       ? "/drinks"
+                      : item === "Food"
+                      ? "/food"  // Food links to the food page
                       : item === "About"
                       ? "/about"
                       : item === "Store"
