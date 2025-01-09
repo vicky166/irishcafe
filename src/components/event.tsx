@@ -7,7 +7,7 @@ const bebasNeue = Bebas_Neue({
 
 export default function Event() {
   return (
-    <section className="text-white py-18 px-4">
+    <section className="text-white py-16 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className={`${bebasNeue.className} text-7xl font-bold mb-6`}>

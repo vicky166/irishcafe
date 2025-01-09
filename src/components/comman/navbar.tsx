@@ -32,12 +32,16 @@ export default function Navbar() {
               <li key={item}>
                 <Link
                   href={
-                    item === "Drinks"
+                    item === "Home"
+                      ? "/"  // Home links to the homepage
+                      : item === "Drinks"
                       ? "/drinks"
                       : item === "About"
                       ? "/about"
                       : item === "Store"
                       ? "/store"
+                      : item === "Contact"
+                      ? "/contact"  // Contact links to the contact page
                       : "#"
                   }
                   className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-white transition"
@@ -88,12 +92,16 @@ export default function Navbar() {
               <li key={item}>
                 <Link
                   href={
-                    item === "Drinks"
+                    item === "Home"
+                      ? "/"  // Home links to the homepage
+                      : item === "Drinks"
                       ? "/drinks"
                       : item === "About"
                       ? "/about"
                       : item === "Store"
                       ? "/store"
+                      : item === "Contact"
+                      ? "/contact"  // Contact links to the contact page
                       : "#"
                   }
                   className="block rounded-md px-4 py-2 text-sm font-medium text-white transition"
