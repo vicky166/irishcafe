@@ -19,7 +19,7 @@ export default function Menu() {
 
       <div className="p-4 sm:p-8 lg:p-1 flex flex-col justify-center">
         <div className="max-w-xl mx-auto lg:mx-0">
-          <span className={`${bebasNeue.className} text-[#18C67E] uppercase lg:mb-16 tracking-wider mb-6 block text-center lg:text-left lg:text-xl sm:text-base`}>
+          <span className={`${bebasNeue.className} text-[#18C67E] uppercase lg:mb-16 tracking-wider mb-6 block text-center lg:text-left lg:text-2xl sm:text-base`}>
             Menu
           </span>
 

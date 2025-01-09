@@ -12,7 +12,7 @@ export default function Host() {
     <div className="bg-zinc-900 mt-12 text-white relative">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[40%_10%_45%] gap-8 px-4 sm:px-6 md:px-0">
         <div className="pt-20 ml-8">
-          <h2 className={`${bebasNeue.className} text-[#18C67E] text-lg tracking-wider mb-12`}>
+          <h2 className={`${bebasNeue.className} text-[#18C67E] text-xl tracking-wider mb-12`}>
             MEET OUR HOST
           </h2>
           <div className="space-y-4">

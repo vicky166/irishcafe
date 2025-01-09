@@ -1,4 +1,4 @@
-import { Bebas_Neue } from 'next/font/google';
+import { Bebas_Neue } from "next/font/google";
 
 const bebasNeue = Bebas_Neue({
   weight: "400",
@@ -17,10 +17,10 @@ export default function About2() {
               <br />
               FLORIDA
             </h2>
-            <div className="space-y-6 text-[#DEE3E1]">
+            <div className="space-y-6  font-bold">
               <p>
-                Vel vestibulum phasellus elit pellentesque etiam elementum
-                dictum integer orci maecenas id metus aliquam, tincidunt sit
+                Vel vestibulum phasellus elit pellentesque etiam elementum<br></br>
+                dictum integer orci maecenas id metus aliquam, tincidunt sit<br></br>
                 varius quis justo tempus id amet fermentum cursus.
               </p>
               <p>
@@ -33,34 +33,28 @@ export default function About2() {
             </div>
           </div>
 
+          {/* Image Section */}
           <div className="relative">
             <img
               src="/img/image3.jpg"
               alt="Irish Pub Scene"
-              className="w-full  h-auto rounded-lg"
+              className="w-full h-auto rounded-lg"
             />
-            <div className="absolute -top-4 -right-4 w-24 h-24">
-              <div className="relative w-full h-full">
-                <div className="flex-shrink-0 mt-8 lg:mt-0">
-                  <div
-                    className={`relative w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-56 xl:h-56 transform rotate-0`}
-                  >
-                    <img
-                      src="/pt.svg"
-                      alt="SVG Icon"
-                      className="w-full h-full object-contain mr-[50px]"
-                    />
-                  </div>
-                </div>
-              </div>
+            <div className="absolute -top-6 -right-1 mr-20 w-40 h-40">
+              <img
+                src="/pt.svg"
+                alt="Irish Pub Badge"
+                className="w-full h-full "
+                style={{
+                  filter:
+                    "brightness(0) saturate(100%) invert(47%) sepia(95%) saturate(401%) hue-rotate(116deg) brightness(100%) contrast(100%)",
+                  transform: "rotate(25deg)", // Rotates the SVG 25 degrees
+                }}
+              />
             </div>
           </div>
         </div>
       </div>
-
-      {/* Customize Button */}
-      <div className="absolute top-8 right-8"></div>
     </div>
   );
 }
-

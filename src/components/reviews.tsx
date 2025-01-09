@@ -14,7 +14,7 @@ export default function Reviews() {
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-end gap-16 mb-16 lg:mr-48">
           <div className="flex-1 text-center lg:text-left">
             <h3
-              className={`${bebasNeue.className} text-emerald-400 text-lg tracking-wider font-medium mb-8 lg:mb-16`}
+              className={`${bebasNeue.className} text-emerald-400 text-2xl tracking-wider font-medium mb-8 lg:mb-16`}
             >
               REVIEWS
             </h3>

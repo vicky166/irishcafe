@@ -9,7 +9,7 @@ export default function About() {
   return (
     <section className="text-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className={`${bebasNeue.className} text-[#18C67E] text-xl uppercase mb-8 sm:mb-12 text-center md:text-left`}>
+        <h2 className={`${bebasNeue.className} text-[#18C67E] text-2xl uppercase mb-8 sm:mb-12 text-center md:text-left`}>
           ABOUT US
         </h2>
 
