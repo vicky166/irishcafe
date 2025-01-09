@@ -93,8 +93,8 @@ export default function Reviews() {
               <Star className="w-4 h-4 fill-emerald-400" />
             </div>
             <p className="text-[#DEE3E1] font-bold text-lg leading-relaxed mb-8">
-              "Pharetra ut commodo dui at consequat, vitae imperdiet id quisque
-              faucibus erat erat nulla a amet."
+            &quot;Pharetra ut commodo dui at consequat, vitae imperdiet id quisque
+              faucibus erat erat nulla a amet.&quot;
             </p>
             <div className="flex items-center gap-4">
               <Image
@@ -119,8 +119,8 @@ export default function Reviews() {
               <Star className="w-4 h-4 fill-emerald-400" />
             </div>
             <p className="text-[#DEE3E1] text-lg font-bold leading-relaxed mb-8">
-              "Fermentum fermentum, quam mollis molestie blandit consectetur
-              tincidunt platea ornare adipiscing aliquam eget mi dictum..."
+            &quot;Fermentum fermentum, quam mollis molestie blandit consectetur
+              tincidunt platea ornare adipiscing aliquam eget mi dictum...&quot;
             </p>
             <div className="flex items-center gap-4">
               <Image
@@ -145,7 +145,7 @@ export default function Reviews() {
               <Star className="w-4 h-4 fill-emerald-400" />
             </div>
             <p className="text-[#DEE3E1] text-lg font-bold leading-relaxed mb-8">
-              "Proin vestibulum ultrices semper arcu facilisis vitae!"
+            &quot;Proin vestibulum ultrices semper arcu facilisis vitae!&quot;
             </p>
             <div className="flex items-center gap-4">
               <Image
@@ -170,8 +170,8 @@ export default function Reviews() {
               <Star className="w-4 h-4 fill-emerald-400" />
             </div>
             <p className="text-[#DEE3E1] text-lg font-bold leading-relaxed mb-8">
-              "Vitae sapien ut laoreet nibh mauris ultrices tristique aliquet
-              eros id accumsan tellus neque sed pellentesque"
+            &quot;Vitae sapien ut laoreet nibh mauris ultrices tristique aliquet
+              eros id accumsan tellus neque sed pellentesque&quot;
             </p>
             <div className="flex items-center gap-4">
               <Image

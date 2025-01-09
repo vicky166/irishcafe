@@ -10,7 +10,6 @@ export default function About2() {
     <div className="relative md:mt-32 text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Text Content */}
           <div className="space-y-8">
             <h2 className={`${bebasNeue.className} text-7xl leading-none`}>
               BEST IRISH PUB & BAR IN
@@ -33,7 +32,6 @@ export default function About2() {
             </div>
           </div>
 
-          {/* Image Section */}
           <div className="relative">
             <img
               src="/img/image3.jpg"
@@ -48,7 +46,7 @@ export default function About2() {
                 style={{
                   filter:
                     "brightness(0) saturate(100%) invert(47%) sepia(95%) saturate(401%) hue-rotate(116deg) brightness(100%) contrast(100%)",
-                  transform: "rotate(25deg)", // Rotates the SVG 25 degrees
+                  transform: "rotate(25deg)", 
                 }}
               />
             </div>

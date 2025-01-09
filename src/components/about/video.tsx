@@ -1,5 +1,4 @@
 import { Play } from "lucide-react";
-import { Globe } from "lucide-react";
 
 export default function Video() {
   return (

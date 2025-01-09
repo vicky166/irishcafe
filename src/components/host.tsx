@@ -19,7 +19,7 @@ export default function Host() {
             <h1 className={`${bebasNeue.className} text-[#DEE3E1] text-[60px] sm:text-[80px] md:text-[120px] leading-[0.9] font-bold tracking-tight`}>
               SCOTT
               <br />
-              O'NEAL
+              O&quot;NEAL
             </h1>
             <Image
               src="/img/signature.svg"

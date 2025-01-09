@@ -1,12 +1,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { Bebas_Neue } from "next/font/google";
-
-const bebasNeue = Bebas_Neue({
-  weight: "400",
-  subsets: ["latin"],
-});
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,17 +27,17 @@ export default function Navbar() {
                 <Link
                   href={
                     item === "Home"
-                      ? "/"  // Home links to the homepage
+                      ? "/"  
                       : item === "Drinks"
                       ? "/drinks"
                       : item === "Food"
-                      ? "/food"  // Food links to the food page
+                      ? "/food"  
                       : item === "About"
                       ? "/about"
                       : item === "Store"
                       ? "/store"
                       : item === "Contact"
-                      ? "/contact"  // Contact links to the contact page
+                      ? "/contact"  
                       : "#"
                   }
                   className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-white transition"
@@ -57,7 +51,7 @@ export default function Navbar() {
 
         <div className="ml-auto mr-4 sm:mr-8 lg:mr-32 hidden md:block">
           <button
-            className="w-full sm:w-auto bg-[#18C67E] hover:bg-emerald-600 text-white font-medium px-6 py-2 text-md rounded-md transition-colors duration-200 uppercase tracking-wide"
+            className="w-full sm:w-auto bg-[#18C67E] hover:bg-emerald-600 text-white font-semibold px-6 py-2 text-sm rounded-md transition-colors duration-200 uppercase tracking-wide"
           >
             Order Online
           </button>
@@ -99,13 +93,13 @@ export default function Navbar() {
                       : item === "Drinks"
                       ? "/drinks"
                       : item === "Food"
-                      ? "/food"  // Food links to the food page
+                      ? "/food"  
                       : item === "About"
                       ? "/about"
                       : item === "Store"
                       ? "/store"
                       : item === "Contact"
-                      ? "/contact"  // Contact links to the contact page
+                      ? "/contact"
                       : "#"
                   }
                   className="block rounded-md px-4 py-2 text-sm font-medium text-white transition"

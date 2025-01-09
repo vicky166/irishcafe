@@ -49,7 +49,7 @@ export default function Owner() {
             >
               SCOTT
               <br />
-              O'NEAL
+              O&apos;NEAL
             </h1>
           </div>
 

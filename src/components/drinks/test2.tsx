@@ -9,7 +9,7 @@ export default function Test2() {
         </div>
 
         <blockquote className="text-xl md:text-2xl font-bold mb-8">
-          "Proin vestibulum ultrices semper arcu facilisis vitae!"
+        &quot;Proin vestibulum ultrices semper arcu facilisis vitae!&quot;
         </blockquote>
 
         <div className="flex items-center justify-center mb-4">
