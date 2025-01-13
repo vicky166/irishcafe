@@ -1,8 +1,8 @@
 import About1 from "@/components/about/about1";
 import About2 from "@/components/about/about2";
 import Owner from "@/components/about/owner";
-import Social2 from "@/components/about/social2";
 import Video from "@/components/about/video";
+import Social from "@/components/social";
 
 export default function Home() {
     return (
@@ -11,7 +11,7 @@ export default function Home() {
       <About2/>
       <Owner/>
       <Video/>
-      <Social2/>
+      <Social/>
       
       </>
     )

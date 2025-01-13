@@ -9,7 +9,7 @@ export default function Social() {
             <img
               src="/img/img123.jpg?height=800&width=400"
               alt="Pub atmosphere"
-              className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[730px] object-cover"
+              className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[710px] object-cover"
             />
           </div>
         ))}

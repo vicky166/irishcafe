@@ -21,7 +21,7 @@ export default function Store1() {
         <h1
           className={`${bebasNeue.className} text-white  md:mt-32 text-6xl md:text-7xl lg:text-8xl font-bold tracking-wider`}
         >
-          ABOUT US
+          STORE 
         </h1>
       </div>
     </section>
