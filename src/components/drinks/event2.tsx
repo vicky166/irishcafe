@@ -16,7 +16,7 @@ export default function Event2() {
           <p className="text-[#DEE3E1]  text-lg max-w-3xl mx-auto">
             Faucibus quam habitasse mauris phasellus elit mauris tortor luctus
             ipsum <br /> facilisis viverra diam felis vel nibh
-          </p>
+          </p> 
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
