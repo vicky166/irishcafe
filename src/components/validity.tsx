@@ -34,7 +34,7 @@ export default function Validity() {
             <p className="text-gray-300 text-base sm:text-lg font-bold mb-8 mt-6 lg:mt-10">
               Sagittis auctor morbi posuere ullamcorper lobortis sagittis nam id
               arcu amet lorem mauris egestas tortor mus feugiat quam eu laoreet
-              dolor neque nec id.
+              dolor neque nec id. 
             </p>
             <button className="bg-[#18C67E] hover:bg-emerald-600 text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-md transition-colors uppercase text-sm sm:text-base">
               Gift Your Friend
@@ -42,7 +42,7 @@ export default function Validity() {
           </div>
 
           <div className="flex-shrink-0 mt-8 lg:mt-0">
-            <div className="relative w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-56 xl:h-56">
+            <div className="relative w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-[250px] xl:h-[250px]"> 
               <img
                 src="/pt.svg"
                 alt="SVG Icon"

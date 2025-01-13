@@ -3,16 +3,13 @@ import { Instagram } from "lucide-react";
 export default function Social() {
   return (
     <section className="relative min-h-screen mt-20">
-      <div className="absolute inset-0">
-        {[1].map((_, index) => (
-          <div key={index} className="relative w-full h-full">
-            <img
-              src="/img/img123.jpg?height=800&width=400"
-              alt="Pub atmosphere"
-              className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[710px] object-cover"
-            />
-          </div>
-        ))}
+      <div className="absolute inset-0 overflow-hidden">
+        <img
+          src="/img/img123.jpg?height=800&width=400"
+          alt="Pub atmosphere"
+          className="w-full h-full object-cover"
+        />
+
         <div className="absolute inset-0 bg-black/70" />
       </div>
 
@@ -30,7 +27,6 @@ export default function Social() {
         >
           TAKE SELFIE & GET 20% OFF FLAT
         </h3>
-
         <p className="text-gray-300 max-w-3xl mx-auto mb-12 text-base sm:text-lg md:text-xl">
           Adipiscing fringilla a, in sit nunc orci, laoreet in nulla elementum
           volutpat nec tristique non eget donec tempus integer amet tellus
