@@ -1,6 +1,6 @@
 import Food1 from "@/components/food/food1";
 import Validity from "@/components/validity";
-import Brunch from "./brunch";
+import Brunch from "../../components/food/brunch";
 import Author from "@/components/food/author";
 import Snacks from "@/components/food/snacks";
 import Author2 from "@/components/food/author2";

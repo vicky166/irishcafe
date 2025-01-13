@@ -9,7 +9,9 @@ export default function Snacks() {
   return (
     <div className="md:mt-32 text-white p-8">
       <div className="text-center mb-16">
-        <h1 className={`${bebasNeue.className} text-6xl md:text-7xl font-bold mb-6`}>
+        <h1
+          className={`${bebasNeue.className} text-6xl md:text-7xl font-bold mb-6`}
+        >
           Snacks
         </h1>
         <p className="max-w-3xl mx-auto font-bold text-gray-300 mb-4">
@@ -22,7 +24,6 @@ export default function Snacks() {
       </div>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
-        {/* First Column */}
         <div>
           <div className="space-y-8">
             <div className="flex gap-6">
@@ -32,7 +33,9 @@ export default function Snacks() {
                 className="w-20 h-20 object-cover"
               />
               <div>
-                <h3 className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}>
+                <h3
+                  className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}
+                >
                   Hummus - $8.50
                 </h3>
                 <p className="text-gray-300">
@@ -49,7 +52,9 @@ export default function Snacks() {
                 className="w-20 h-20 object-cover"
               />
               <div>
-                <h3 className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}>
+                <h3
+                  className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}
+                >
                   Pre-game Frickles - $6.25
                 </h3>
                 <p className="text-gray-300">
@@ -66,16 +71,19 @@ export default function Snacks() {
                 className="w-20 h-20 object-cover"
               />
               <div>
-                <h3 className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}>
+                <h3
+                  className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}
+                >
                   Gold ‘N Salty Pretzel Bites - $8.25
                 </h3>
-                <p className="text-gray-300">Served with Jalapeño Beer Cheese</p>
+                <p className="text-gray-300">
+                  Served with Jalapeño Beer Cheese
+                </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Second Column */}
         <div>
           <div className="space-y-8">
             <div className="flex gap-6">
@@ -85,7 +93,9 @@ export default function Snacks() {
                 className="w-20 h-20 object-cover"
               />
               <div>
-                <h3 className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}>
+                <h3
+                  className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}
+                >
                   Hogtown Baked Riblets - $9.50
                 </h3>
                 <p className="text-gray-300">
@@ -102,7 +112,9 @@ export default function Snacks() {
                 className="w-20 h-20 object-cover"
               />
               <div>
-                <h3 className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}>
+                <h3
+                  className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}
+                >
                   Onion Rings - $8.50
                 </h3>
                 <p className="text-gray-300">

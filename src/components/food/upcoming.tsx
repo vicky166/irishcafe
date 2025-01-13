@@ -42,7 +42,8 @@ export default function Upcoming() {
                 <h3
                   className={`${bebasNeue.className} text-[40px] font-bold leading-tight mb-4`}
                 >
-Thai Food Evening                </h3>
+                  Thai Food Evening{" "}
+                </h3>
                 <p className="text-gray-300 mb-8">
                   Orci posuere eu fringilla accumsan, consequat mollis amet,
                   nullam mollis ullamcorper elit mauris eget.
@@ -76,7 +77,7 @@ Thai Food Evening                </h3>
                 <h3
                   className={`${bebasNeue.className} text-[40px] font-bold leading-tight mb-4`}
                 >
-               Food and Music
+                  Food and Music
                 </h3>
                 <p className="text-gray-300 mb-8">
                   Orci posuere eu fringilla accumsan, consequat mollis.

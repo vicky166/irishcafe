@@ -12,9 +12,12 @@ export default function Main1() {
         <h1
           className={`${bebasNeue.className} text-6xl md:text-7xl font-bold mb-6`}
         >
-Mains        </h1>
+          Mains{" "}
+        </h1>
         <p className="max-w-3xl mx-auto font-bold text-gray-300 mb-4">
-        Augue faucibus sit convallis faucibus tortor, lacus sit venenatis nibh eleifend sed tincidunt<br></br> faucibus id nibh faucibus ornare leo cum
+          Augue faucibus sit convallis faucibus tortor, lacus sit venenatis nibh
+          eleifend sed tincidunt<br></br> faucibus id nibh faucibus ornare leo
+          cum
         </p>
         <p className="text-sm text-gray-400 italic font-bold">
           Price do not include tax
@@ -34,11 +37,11 @@ Mains        </h1>
                 <h3
                   className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}
                 >
-Prairie Top Sirloin - $26.50                </h3>
+                  Prairie Top Sirloin - $26.50{" "}
+                </h3>
                 <p className="text-gray-300">
-                7 oz. Certified Angus Beef® Top Sirloin / Cheddar Mash / Seasonal Veggies / Sautéed Garlic Mushrooms
-
-
+                  7 oz. Certified Angus Beef® Top Sirloin / Cheddar Mash /
+                  Seasonal Veggies / Sautéed Garlic Mushrooms
                 </p>
               </div>
             </div>
@@ -53,10 +56,11 @@ Prairie Top Sirloin - $26.50                </h3>
                 <h3
                   className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}
                 >
-
-Perogies & Sausages - $16.00                </h3>
+                  Perogies & Sausages - $16.00{" "}
+                </h3>
                 <p className="text-gray-300">
-                Three Cheese Perogies / Lumberjack Lager Caramelized Onions / Sausage / Crispy Bacon / Sour Cream / Green Onions
+                  Three Cheese Perogies / Lumberjack Lager Caramelized Onions /
+                  Sausage / Crispy Bacon / Sour Cream / Green Onions
                 </p>
               </div>
             </div>
@@ -71,9 +75,12 @@ Perogies & Sausages - $16.00                </h3>
                 <h3
                   className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}
                 >
-Twisted Chicken Tenders - $17.00                </h3>
+                  Twisted Chicken Tenders - $17.00{" "}
+                </h3>
                 <p className="text-gray-300">
-                Pretzel-Crusted Chicken Strips / Maple Whisky BBQ Sauce/ Housemade Honey Mustard / Served with Fries                </p>
+                  Pretzel-Crusted Chicken Strips / Maple Whisky BBQ Sauce/
+                  Housemade Honey Mustard / Served with Fries{" "}
+                </p>
               </div>
             </div>
           </div>
@@ -91,9 +98,12 @@ Twisted Chicken Tenders - $17.00                </h3>
                 <h3
                   className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}
                 >
-Bacon Grilled Cheese And Tomato Bisque Soup - $17.25                </h3>
+                  Bacon Grilled Cheese And Tomato Bisque Soup - $17.25{" "}
+                </h3>
                 <p className="text-gray-300">
-                Canadian Cheddar and Mozzarella / Cheese Whiz / Thick Cut Bacon / Mayonnaise / Sourdough Bread / Served with Roasted Tomato Soup
+                  Canadian Cheddar and Mozzarella / Cheese Whiz / Thick Cut
+                  Bacon / Mayonnaise / Sourdough Bread / Served with Roasted
+                  Tomato Soup
                 </p>
               </div>
             </div>
@@ -108,14 +118,14 @@ Bacon Grilled Cheese And Tomato Bisque Soup - $17.25                </h3>
                 <h3
                   className={`${bebasNeue.className} text-xl md:text-2xl font-bold mb-2`}
                 >
-Bale House Fish & Chips - $18.50                </h3>
+                  Bale House Fish & Chips - $18.50{" "}
+                </h3>
                 <p className="text-gray-300">
-                Bale House Ale Battered MSC Certified Haddock / Served With Fries / Coleslaw / Tartar Sauce
+                  Bale House Ale Battered MSC Certified Haddock / Served With
+                  Fries / Coleslaw / Tartar Sauce
                 </p>
               </div>
             </div>
-
-           
           </div>
         </div>
       </div>

@@ -5,20 +5,6 @@ const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
 });
 
-/*************  ✨ Codeium Command ⭐  *************/
-/**
- * Renders a wine selection page with different categories of wine.
- *
- * The component displays a title, description, and disclaimer about pricing.
- * It then presents a grid layout with sections for red, white, and rose wines.
- * Each wine entry includes an image, name, price, and description.
- *
- * Uses the Bebas Neue font for headings with flexible sizing for responsive design.
- *
- * @returns A JSX element representing the wine selection page.
- */
-
-/******  f9b89681-8a4d-44c7-89d2-aaf5e7b7a90a  *******/
 export default function Wine() {
   return (
     <div className="md:mt-32 text-white p-8">
