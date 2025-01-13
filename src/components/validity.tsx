@@ -12,7 +12,6 @@ export default function Validity() {
     <section className="text-white py-8 px-4 mt-8 md:py-16 md:px-8 md:mt-16">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between">
-          {/* Left Section */}
           <div className="mb-8 lg:mb-0 lg:mt-12 text-center lg:text-left">
             <h2
               className={`${bebasNeue.className} text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 md:mb-10 lg:mb-20`}
@@ -26,7 +25,6 @@ export default function Validity() {
             </p>
           </div>
 
-          {/* Center Section */}
           <div className="max-w-xl mb-8 lg:mb-0 text-center lg:text-left">
             <h1
               className={`${bebasNeue.className} text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight`}
@@ -43,7 +41,6 @@ export default function Validity() {
             </button>
           </div>
 
-          {/* Right Section */}
           <div className="flex-shrink-0 mt-8 lg:mt-0">
             <div className="relative w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-56 xl:h-56">
               <img

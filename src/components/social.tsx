@@ -3,17 +3,17 @@ import { Instagram } from "lucide-react";
 export default function Social() {
   return (
     <section className="relative min-h-screen mt-20">
-      <div className="absolute inset-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-0">
-        {[1, 2, 3, 4].map((_, index) => (
+      <div className="absolute inset-0">
+        {[1].map((_, index) => (
           <div key={index} className="relative w-full h-full">
             <img
               src="/img/img123.jpg?height=800&width=400"
               alt="Pub atmosphere"
-              className="w-full h-full object-cover"
+              className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[730px] object-cover"
             />
           </div>
         ))}
-        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-black/70" />
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4">
